@@ -26,6 +26,7 @@
         "drupal/console": "^1.0.2",
         "drupal/contact_block": "^1.4",
         "drupal/core": "~8.4",
+        "drupal/csv_serialization": "^1.0",
         "drupal/ctools": "^3.0",
         "drupal/dropdown_language": "^1.2",
         "drupal/entity_browser": "^1.3",
