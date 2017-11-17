@@ -56,6 +56,16 @@ h5, h6, .h5, .h6 {
   line-height: 30px;
 }
 
+a.link-edit-blockbuider {
+  display: none !important;
+}
+a.site-branding-logo img{
+  padding-top: 10%;
+}
+div.site-branding__name {
+  display: none !important;
+}
+
 .body-page input[type="text"],
 .body-page input[type="tel"],
 .body-page input[type="password"],
@@ -974,6 +984,10 @@ body.footer-fixed #footer {
 }
 .copyright .copyright-inner .block {
   margin: 0;
+}
+
+h1.title.page-title {
+  display: none !important;
 }
 
 body.hidden-title .node--view-mode-full header {
