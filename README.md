@@ -1,4 +1,23 @@
-# Composer template for Drupal projects
+# Usman Saqlein's Drupal Kick Start Application
+
+Following Project implements Drupal CRM for Quick, Proof of Concept Applications & Code Samples
+1. clone the project in a directory:
+```
+git clone git@github.com:usaqlein/place.git
+```
+1. Run composer install on the Root directory
+1. Root directory contains place_dev.sql file, Create a MySQL database and import this database
+1. Inside the Root is a folder "Web" which is "Drupal Root" and contains index.php file, which should trigger Application Install Process.
+1. Application will ask for Database credentials and setup the connection, please point it to where database file was imported in step 2.
+1. Composer should set the correct permissions on the files, however if you run into an issue, plz chmod a+w the root/web/sites/default/* dir.
+1. Please select you `standard installation` and upon install visit Configuration >> Development (top admin bar) and clear the cache.
+1. Additional documentation on Installation process can be found here: [drupal 8 Installation](https://www.drupal.org/docs/user_guide/en/install-run.html).
+1. I will be pushing this code to the Live Server as well. Plz visit
+```
+http://45.55.61.100
+```
+To see live implementation.
+
 
 [![Build Status](https://travis-ci.org/drupal-composer/drupal-project.svg?branch=8.x)](https://travis-ci.org/drupal-composer/drupal-project)
 
