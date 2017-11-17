@@ -18,7 +18,7 @@
 /web/sites/default/files/php
 /web/sites/default/files/config_acqTmp-2017-11-16T23.06.49-5535
 /web/sites/default/files/styles
-
+/web/sites/default/files/.DS_Store
 
 
 # Ignore SimpleTest multi-site environment.
