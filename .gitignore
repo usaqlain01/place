@@ -3,6 +3,8 @@
 /vendor/
 /web/core/
 /web/modules/contrib/
+!/web/modules/contrib/contentimport
+!/web/modules/contrib/contentimport/*
 /web/themes/contrib/
 /web/profiles/contrib/
 /web/libraries/
