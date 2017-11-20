@@ -58,6 +58,54 @@ function gavias_financial_preprocess_image(&$variables) {
   }
 }
 
+// **************************
+
+
+function gavias_financial_preprocess_field(&$variables, $hook) {
+//    $element = $variables['element'];
+//    $variables['entity_type'] = $element['#entity_type'];
+//    $variables['field_name'] = $element['#field_name'];
+//    $variables['field_type'] = $element['#field_type'];
+//    $variables['label_display'] = $element['#label_display'];
+//
+//    $variables['label_hidden'] = ($element['#label_display'] == 'hidden');
+//    $variables['label'] = $element['#title'];
+//
+//    $variables['multiple'] = $element['#is_multiple'];
+//
+//    static $default_attributes;
+//    if (!isset($default_attributes)) {
+//        $default_attributes = new Attribute();
+//    }
+//    if ($element['#label_display'] == 'hidden' && !$variables['multiple'] && !empty($element['#items'][0]->_attributes)) {
+//        $variables['attributes'] = NestedArray::mergeDeep($variables['attributes'], (array) $element['#items'][0]->_attributes);
+//    }
+//    $variables['items'] = [];
+//    $delta = 0;
+//    while (!empty($element[$delta])) {
+//        $variables['items'][$delta]['content'] = $element[$delta];
+//        $variables['items'][$delta]['attributes'] = !empty($element['#items'][$delta]->_attributes) ? new Attribute($element['#items'][$delta]->_attributes) : clone($default_attributes);
+//        $delta++;
+//    }
+    // Drilling Deep and Finding all the Variables:
+
+    $x = $variables;
+
+
+
+
+
+
+
+
+
+    $variables['usman'] = 'SuperDev';
+    $variables['natu'] = 'GF';
+}
+
+
+// ***************************
+
 /**
  * Implements hook_preprocess_HOOK() for HTML document templates.
  *
