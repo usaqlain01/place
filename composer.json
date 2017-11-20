@@ -25,7 +25,6 @@
         "drupal/config_update": "^1.4",
         "drupal/console": "^1.0.2",
         "drupal/contact_block": "^1.4",
-        "drupal/contentimport": "^3.2",
         "drupal/core": "~8.4",
         "drupal/csv_serialization": "^1.0",
         "drupal/ctools": "^3.0",
